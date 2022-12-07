@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main(void) {
+	int t,n,x,y,z,count,i,j,a,b,c;
+	scanf("%d",&t);
+	while(t--)
+	{
+	  scanf("%d %d %d",&x,&y,&z);
+	  if(x==0&&y==0&&z==0||x==1&&y==1&&z==1)
+      printf("0\n");
+    else
+       printf("1\n");
+	}
+	return 0;
+}
